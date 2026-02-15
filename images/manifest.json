@@ -7,5 +7,87 @@
             "All images loaded in yshz2024-eng/test1 project"
         ]
     },
-    "items": []
+    "items": [
+        {
+            "id": "https://yshz2024-eng.github.io/test1/images/bk301/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "bk301"
+                ]
+            },
+            "height": 579,
+            "width": 1031,
+            "items": [
+                {
+                    "id": "https://yshz2024-eng.github.io/test1/images/bk301/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://yshz2024-eng.github.io/test1/images/bk301/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://yshz2024-eng.github.io/test1/images/bk301/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 33,
+                                                "height": 19
+                                            },
+                                            {
+                                                "width": 65,
+                                                "height": 37
+                                            },
+                                            {
+                                                "width": 129,
+                                                "height": 73
+                                            },
+                                            {
+                                                "width": 258,
+                                                "height": 145
+                                            },
+                                            {
+                                                "width": 516,
+                                                "height": 290
+                                            },
+                                            {
+                                                "width": 1031,
+                                                "height": 579
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1031,
+                                        "@id": "https://yshz2024-eng.github.io/test1/images/bk301",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 579,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://yshz2024-eng.github.io/test1/images/bk301/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
